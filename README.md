@@ -18,12 +18,15 @@ Note : All These APIs must be accessible only by logged in Users. Give necessary
 ( Note:- if you get this error-
  "Invalid login: 535-5.7.8 Username and Password not accepted", then  Allow less secure apps From your Google Account.)
  
- 
- (https://mailotp.herokuapp.com/login
- 
+ ```bash
+ https://mailotp.herokuapp.com/login
+ ```
+ ```bash
  https://mailotp.herokuapp.com/postTask
- 
+ ```
+ ```bash
  https://mailotp.herokuapp.com/editTask
- 
- https://mailotp.herokuapp.compostTask/deleteTask/:taskId)
-
+ ```
+ ```bash
+ https://mailotp.herokuapp.compostTask/deleteTask/:taskId
+ ```
