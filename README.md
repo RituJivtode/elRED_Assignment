@@ -1,5 +1,22 @@
 # elRED_Assignment
 
+APIs :-
+
+```bash
+ https://mailotp.herokuapp.com/login
+ ```
+ ```bash
+ https://mailotp.herokuapp.com/postTask
+ ```
+ ```bash
+ https://mailotp.herokuapp.com/editTask
+ ```
+ ```bash
+ https://mailotp.herokuapp.compostTask/deleteTask/:taskId
+ ```
+
+
+
 Problem Statement - Create Apis for the following :
 
 1.) User must be able to login / logout using email ID and Password. OTP should be sent to email ID. User Session and Authentication should be taken care of. Please create an API endpoint for the same.
@@ -18,15 +35,4 @@ Note : All These APIs must be accessible only by logged in Users. Give necessary
 ( Note:- if you get this error-
  "Invalid login: 535-5.7.8 Username and Password not accepted", then  Allow less secure apps From your Google Account.)
  
- ```bash
- https://mailotp.herokuapp.com/login
- ```
- ```bash
- https://mailotp.herokuapp.com/postTask
- ```
- ```bash
- https://mailotp.herokuapp.com/editTask
- ```
- ```bash
- https://mailotp.herokuapp.compostTask/deleteTask/:taskId
- ```
+ 
