@@ -2,14 +2,14 @@
 const express = require("express");
 const mongoose = require("mongoose"); //ODM library for mongoDB
 const route = require("./route/route.js"); //imported route
-//const multer = require("multer")
+
 
 const app = express(); //Assign express in app variable
 
 
 app.use(express.json());  //transforms the text-based JSON input into JS-accessible variables
 
-//app.use(multer().any())
+
 
 //a framework that helps to establish a connection b/w node and mongoDB
 mongoose
