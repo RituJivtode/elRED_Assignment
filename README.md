@@ -3,17 +3,24 @@
 APIs :-
 
 ```bash
- https://mailotp.herokuapp.com/login     => to send the OTP
+ https://mailotp.herokuapp.com/login    
  ```
+ to send the OTP
+ 
  ```bash
  https://mailotp.herokuapp.com/postTask
  ```
+ to post the task by particular user
+ 
  ```bash
  https://mailotp.herokuapp.com/editTask
  ```
+ to edit the task or any other fields by authorized user
+ 
  ```bash
  https://mailotp.herokuapp.compostTask/deleteTask/:taskId
  ```
+  to delete the task by authorized user
 
 
 
