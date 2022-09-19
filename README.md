@@ -3,7 +3,7 @@
 APIs :-
 
 ```bash
- https://mailotp.herokuapp.com/login
+ https://mailotp.herokuapp.com/login     => to send the OTP
  ```
  ```bash
  https://mailotp.herokuapp.com/postTask
